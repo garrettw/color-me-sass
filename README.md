@@ -10,21 +10,21 @@ Colour library for the css preprocessor Sass.
 Usage
 ------------------------------
 
-###1. CSS Preprocessors
+### 1. CSS Preprocessors
 
 I'm not going to go into detail into what css preprocessors are or which one is better, both [Sass](http://sass-lang.com/) and [LESS](http://lesscss.org/) are both pretty cool and I believe every web designer should at least have a play with one of them.
 
 One thing you need to know if you're new to this, Sass uses Ruby and LESS uses JavaScript. That should help with your choice.
 
 
-###2. Setting Up
+### 2. Setting Up
 
 Use `npm install color-me-sass` or `bower install color-me-sass` to get a copy of the package. Alternatively [download](http://richbray.me/cms/color-me-sass.zip) a copy.
 
 If your farmilliar with Sass or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
 
 
-###3. Using the Colours
+### 3. Using the Colours
 
 Now here's the fun part. If you want to use a colour all you need to do is type in it's variable name.
 
@@ -104,7 +104,7 @@ The possibilities are pretty much endless. Have fun.
 Don't forget to hit me up on [twitter](https://twitter.com/Ceiga) if you end up using this for a site you work on.
 
 
-Liscense
+License
 ------------------------------
 Color Me Sass is licensed under the [☺ license.](http://licence.visualidiot.com/)
 
