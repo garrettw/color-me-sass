@@ -1,28 +1,26 @@
 {
   "name": "color-me-sass",
   "version": "1.4.0",
-  "description": "Colour library for the css preprocessor Sass.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RichardBray/color-me-sass.git"
-  },
-  "keywords": [
-    "color",
-    "sass",
-    "variables",
-    "palette",
-    "brand",
-    "dulux",
-    "bootstrap"
-  ],
+  "description": "Sass color library.",
+  "keywords": ["color", "sass", "variables", "palette", "brand", "dulux", "bootstrap"],
   "author": "Richard Bray <richardobray@yahoo.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RichardBray/color-me-sass/issues"
+    "url": "https://github.com/garrettw/color-me-sass/issues"
   },
-  "homepage": "http://richbray.me/cms/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettw/color-me-sass.git"
+  },
+  "devDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-checkstyle-formatter": "^0.1.0",
+    "stylelint-scss": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint \"**/*.scss\" || exit 0",
+    "lint:css-checkstyle": "stylelint \"**/*.scss\" --custom-formatter ./node_modules/stylelint-checkstyle-formatter/index.js || exit 0"
+  }
 }

@@ -1,10 +1,9 @@
 ColorMeSass
 ===========
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/color-me-sass/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-Colour library for the css preprocessor Sass.
+A Sass color library.
 
- [Full site with colours, variable names and documentation here](http://richbray.me/cms/).
+[Full site with colours, variable names and documentation here](https://web.archive.org/web/20180425155131/http://www.richbray.me/cms/).
 
 
 Usage
@@ -28,76 +27,76 @@ If your farmilliar with Sass or LESS this should be a walk in the park. Make sur
 
 Now here's the fun part. If you want to use a colour all you need to do is type in it's variable name.
 
-	body{
-			background-color: $orangeDuller;
-			color: $white;
-		}
+  body{
+      background-color: $orangeDuller;
+      color: $white;
+    }
 
 The cool thing about CSS pre-processors is you can make the colour lighter or darker, desaturate or saturate colours, change the hue, or even mix two colours together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
 
 
 **Lightness**
 
-		/*  LIGHTEN  */		
+    /*  LIGHTEN  */
 
-		body{
-			background-color: lighten($yellowDark, 25%);
-		}
+    body{
+      background-color: lighten($yellowDark, 25%);
+    }
 
-		/*  DARKEN  */
+    /*  DARKEN  */
 
-		body{
-			background-color: darken($pinkCoral, 76%);
-		}
+    body{
+      background-color: darken($pinkCoral, 76%);
+    }
 
 
 **Saturation**
 
-		/*  DESATURATE  */
+    /*  DESATURATE  */
 
-		body{
-			background-color: desaturate($amberDull, 14%);
-		}
+    body{
+      background-color: desaturate($amberDull, 14%);
+    }
 
-		/*  SATURATE  */
+    /*  SATURATE  */
 
-		body{
-			background-color: saturate($greenSea, 39%);
-		}
+    body{
+      background-color: saturate($greenSea, 39%);
+    }
 
 **Hue**
 
 
-		body{
-			background-color: adjust_hue($purplePlum, 78); /* between 0 - 360 */
-		}
+    body{
+      background-color: adjust_hue($purplePlum, 78); /* between 0 - 360 */
+    }
 
 
 **More than one adjustment**
 
 
-		/*  HS (HUE & SATURATION)  */
+    /*  HS (HUE & SATURATION)  */
 
-		body{
-			background-color: adjust_color($brownBronze, $hue: 11%, $saturation: -8%);
-		}
+    body{
+      background-color: adjust_color($brownBronze, $hue: 11%, $saturation: -8%);
+    }
 
-		/*  HSL (HUE, SATURATION & LIGHTNESS)  */
+    /*  HSL (HUE, SATURATION & LIGHTNESS)  */
 
-		body{
-			background-color: adjust_color($blueLighter, $lightness: -10%, $hue: 11%, $saturation: -8%);
-		}
+    body{
+      background-color: adjust_color($blueLighter, $lightness: -10%, $hue: 11%, $saturation: -8%);
+    }
 
 
 **Mixing Colours**
 
 
 
-		$cool_purple:  mix($red, $blue, 50%);
+    $cool_purple:  mix($red, $blue, 50%);
 
-		body{
-			background-color: $cool_purple;
-		}
+    body{
+      background-color: $cool_purple;
+    }
 
 
 The possibilities are pretty much endless. Have fun.

@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "color-hex-case": "lower",
+    "function-linear-gradient-no-nonstandard-direction": null,
+    "number-leading-zero": "always",
+    "scss/at-rule-no-unknown": true
+  }
+}
