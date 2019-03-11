@@ -4,9 +4,13 @@
 // Defaults
 
 $blue:                  #06f !default;
+$bluePure:              #00f !default;
+$blueMedium:            #0000cd !default;
 $blueDark:              #003d99 !default;
+$blueDark2:             #0000b8 !default;
 $blueDarker:            #002966 !default;
 $blueLight:             #4d94ff !default;
+$blueLight2:            #add8e6 !default;
 $blueLighter:           #80b2ff !default;
 $blueDull:              #06c !default;
 $blueDuller:            #369 !default;
@@ -16,17 +20,73 @@ $blueBrighter:          #70b8ff !default;
 // Variations
 
 $blueAirforce:          #5d8aa8 !default;
+$blueAirSuperiority:    #72a0c1 !default;
+$blueAlice:             #f0f8ff !default;
 $blueAzure:             #007fff !default;
+$blueAzureWhite:        #f0ffff !default;
 $blueBaby:              #89cff0 !default;
-$blueFrench:            #318ce7 !default;
+$blueBice:              #2072af !default;
+$blueBondi:             #0095b6 !default;
+$blueBrandeis:          #0070ff !default;
+$blueByzantine:         #3457d5 !default;
+$blueCapri:             #00bfff !default;
+$blueCarolina:          #7bafd4 !default;
 $blueCeleste:           #b2ffff !default;
+$blueCerulean:          #007ba7 !default;
+$blueCobalt:            #0047ab !default;
 $blueColumbia:          #75b2dd !default;
-$blueSky:               #73c2fb !default;
+$blueColumbia2:         #b9d9eb !default;
+$blueCornflower:        #6495ed !default;
+$blueCyanPure:          #0ff !default;
+$blueDenim:             #1560bd !default;
+$blueDodger:            #1e90ff !default;
+$blueDuke:              #00009c !default;
+$blueEgyptian:          #1034a6 !default;
+$blueFederal:           #16166b !default;
+$blueFrench:            #318ce7 !default;
+$blueGlaucous:          #6082b6 !default;
+$blueGray:              #69c !default;
+$blueIce:               #9ff !default;
+$blueIndigo:            #3f00ff !default;
+$blueIndigoDye:         #00416a !default;
+$blueIndigoElectric:    #6f00ff !default;
+$blueIntlKlein:         #002fa7 !default;
+$blueIris:              #5a4fcf !default;
+$blueMajorelle:         #6050dc !default;
+$blueMarian:            #e1ebee !default;
+$blueMaya:              #73c2fb !default;
 $blueMidnight:          #191970 !default;
 $blueNavy:              #000080 !default;
+$blueNeon:              #4666ff !default;
+$blueNonPhoto:          #a4dded !default;
+$blueOxford:            #002147 !default;
+$bluePacific:           #1ca9c9 !default;
+$bluePalatinate:        #273be2 !default;
+$bluePeriwinkle:        #ccf !default;
+$bluePersian:           #1c39bb !default;
+$bluePhthalo:           #000f89 !default;
+$bluePowder:            #9eb9d4 !default;
+$bluePrussian:          #003153 !default;
+$blueRobinEgg:          #0cc !default;
 $blueRoyal:             #4169e1 !default;
 $blueSapphire:          #0f52ba !default;
+$blueSky:               #73c2fb !default;
+$blueSky2:              #87ceeb !default;
+$blueSkyVivid:          #0cf !default;
+$blueSlate:             #6a5acd !default;
+$blueSlateMedium:       #7b68ee !default;
 $blueSteel:             #4682b4 !default;
+$blueTeal:              #367588 !default;
+$blueTiffany:           #81d8d0 !default;
+$blueTrue:              #2d68c4 !default;
+$blueTufts:             #3e8ede !default;
+$blueTurquoise:         #40e0d0 !default;
+$blueUCLA:              #2774ae !default;
+$blueUltramarine:       #120a8f !default;
+$blueViolet:            #324ab2 !default;
+$blueYale:              #00356b !default;
+$blueYInMn:             #2e5090 !default;
+$blueZaffre:            #0014a8 !default;
 
 // Brands
 
@@ -53,7 +113,7 @@ $blueReflection:        #9ab7b3 !default;
 $blueHoliday:           #0097c8 !default;
 $blueStonewash:         #648e9c !default;
 $blueCyan:              #36a0ca !default;
-$blueSapphire:          #2c405b !default;
+$blueSapphire2:         #2c405b !default; // previously conflicted with above
 $blueLake:              #476a88 !default;
 $blueBreton:            #4d5965 !default;
 $blueSeduction:         #4c84b8 !default;
