@@ -1,9 +1,9 @@
-ColorMeSass
+Color Me Sass
 ===========
 
 A Sass color library.
 
-[Full site with colours, variable names and documentation here](https://web.archive.org/web/20180425155131/http://www.richbray.me/cms/).
+[Full site with colors, variable names and documentation here](https://web.archive.org/web/20180425155131/http://www.richbray.me/cms/).
 
 
 Usage
@@ -18,21 +18,21 @@ One thing you need to know if you're new to this, Sass uses Ruby and LESS uses J
 
 ### 2. Setting Up
 
-Use `npm install color-me-sass` or `bower install color-me-sass` to get a copy of the package. Alternatively [download](http://richbray.me/cms/color-me-sass.zip) a copy.
+Use `npm install color-me-sass` to get a copy of the package. Alternatively [download](https://github.com/garrettw/color-me-sass/archive/master.zip) a copy.
 
-If your farmilliar with Sass or LESS this should be a walk in the park. Make sure the main `_color-me-sass.scss` file is imported at the very bottom so it will overwrite any similar colour variables you have.
+If you're familiar with Sass or LESS this should be a walk in the park. Just import the main `_color-me-sass.scss` file anywhere -- it won't overwrite any color variables you already have.
 
 
-### 3. Using the Colours
+### 3. Using the Colors
 
-Now here's the fun part. If you want to use a colour all you need to do is type in it's variable name.
+Now here's the fun part. If you want to use a color all you need to do is type in its variable name.
 
   body{
       background-color: $orangeDuller;
       color: $white;
     }
 
-The cool thing about CSS pre-processors is you can make the colour lighter or darker, desaturate or saturate colours, change the hue, or even mix two colours together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
+The cool thing about CSS pre-processors is you can make the color lighter or darker, desaturate or saturate colors, change the hue, or even mix two colors together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
 
 
 **Lightness**
@@ -88,7 +88,7 @@ The cool thing about CSS pre-processors is you can make the colour lighter or da
     }
 
 
-**Mixing Colours**
+**Mixing Colors**
 
 
 
@@ -120,10 +120,10 @@ Changelog
 
 **v 1.0**        Color Me Sass is born.
 
-**v 1.1**        Added a few brand colours from [http://brandcolors.net/](http://brandcolors.net/) to the library
+**v 1.1**        Added a few brand colors from [http://brandcolors.net/](http://brandcolors.net/) to the library
 
-**v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
+**v 1.2**        25/04/13 Added some colors from [preboot](http://getpreboot.com/#variables-colors)
 
-**v 1.3**        04/06/13 Updated with over 90 dulux inspired colours
+**v 1.3**        04/06/13 Updated with over 90 dulux inspired colors
 
 **v 1.4**        03/03/16 Added support for [NPM](https://www.npmjs.com/) packaging.
